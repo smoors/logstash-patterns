@@ -1,0 +1,23 @@
+data = [
+{
+    "raw": "2020-05-06T14:24:27.721036+02:00 node362 reframe: username=vsc10001|version=2.21|name=OSULatencyTest|system=hydra|partition=skylake_mpi|environ=foss-2019b|num_tasks=2|tags=production|jobid=3088999|perf_var=latency|perf_value=1.5|ref=6.5|lower=-1|upper=0.1|unit=us",
+    "expected" : {
+        "program": "reframe",
+        "lower": -1,
+        "upper": 0.1,
+        "version": "2.21",
+        "environ": "foss-2019b",
+        "tags": "production",
+        "num_tasks": 2,
+        "perf_value": 1.5,
+        "jobid": "3088999",
+        "ref": 6.5,
+        "unit": "us",
+        "system": "hydra",
+        "partition": "skylake_mpi",
+        "name": "OSULatencyTest",
+        "perf_var": "latency",
+        "username": "vsc10001",
+    }
+},
+]
